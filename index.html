@@ -40,3 +40,16 @@ description: "Thinking will not overcome fear but action will."
     {% endif %}
 </ul>
 {% endif %}
+<script>
+    if(window.location.host=="kermit.xyz" && window.location.host=="zhoukeming01.github.io")
+    {
+        var divstr=document.getElementById("mirror");
+        divstr.innerText="当前在GitHub Pages托管的页面"
+    }
+    if(window.location.host=="kermitzhou.gitee.io")
+    {
+        var divstr=document.getElementById("mirror");
+        divstr.innerText="当前在Gitee Pages托管的镜像页面"
+    }
+</script>
+<div id="mirror"></div>
