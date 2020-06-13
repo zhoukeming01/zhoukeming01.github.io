@@ -2,7 +2,7 @@
 title: Kermit's Blog
 SEOTitle: Kermit's Blog
 header-img: img/post-bg-desk.jpg
-email: mailzhoukeming@163.com
+email: <a href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=KRscHhoRGRwRHxlpWFgHSkZE">Email me</a>
 description: "Every failure is leading towards success."
 keyword: ""
 url: "http://zhoukeming01.github.io"          # your host, for absolute URL
@@ -76,8 +76,8 @@ gitalk:
 # ba_track_id: 
 
 # Google Analytics
-ga_track_id: 'UA-149007930-1'           # Format: UA-xxxxxx-xx
-ga_domain: auto                         # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_track_id: ''                         # Format: UA-xxxxxx-xx
+# ga_domain: auto                         # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
