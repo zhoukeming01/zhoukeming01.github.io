@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      \\(\\sqrt{x^2+Δ}\\)与\\(\\sqrt{x^2-Δ}\\)，哪一个与x最接近
+subtitle:   请仔细阅读
+date:       2021-02-27
+author:     周可名
+header-img: img/post-bg-interview.jpg
+catalog:    true
+tags:
+    - 数学研究
+---
