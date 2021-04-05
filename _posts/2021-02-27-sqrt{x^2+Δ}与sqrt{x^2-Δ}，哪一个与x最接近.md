@@ -14,7 +14,7 @@ tags:
 
 \\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(L = \\sqrt \{\{x^2} - \\Delta } \\).
 
-问题：H与L中，哪个与x更接近(\\(0 \\le \\Delta  \\le {x^2}\\))？①
+问题：H与L中，哪个与x更接近(\\(0 \\le \\Delta  \\le {x^2}\\))？
 
 法一：作差法
 
@@ -24,7 +24,7 @@ tags:
 
 要确定该式的符号，可计算“判别式”J：
 
-\\(J = {\\left( {H + L} \\right)^2} - {\\left( {2x} \\right)^2} = 2\\left( {H \\cdot L - {x^2}} \\right)\\)②.
+\\(J = {\\left( {H + L} \\right)^2} - {\\left( {2x} \\right)^2} = 2\\left( {H \\cdot L - {x^2}} \\right)\\).
 
 \\(\\begin{array}{l}J > 0 \\Leftrightarrow H - x > x - L;\\\\J = 0 \\Leftrightarrow H - x = x - L;\\\\J < 0 \\Leftrightarrow H - x < x - L.\\end{array}\\)
 
@@ -33,8 +33,6 @@ tags:
 2. 当\\(\\Delta  > 0\\)时，
 
 \\(\\begin{array}{l}\\frac{J}{2} = \\sqrt \{\{x^4} - {\\Delta ^2}}  - {x^2}.\\\\\\because {x^4} - {\\Delta ^2} < {x^4}\\\\\\therefore \\sqrt \{\{x^4} - {\\Delta ^2}}  - {x^2} < 0\\\\\\therefore J = 2(\\sqrt \{\{x^4} - {\\Delta ^2}}  - {x^2}) < 0.\\\\\\therefore H - x < x - L.\\end{array}\\)
-
-
 
 法二：利用平方差公式转化
 
@@ -48,7 +46,7 @@ tags:
 
 \\(\\begin{array}{l}\\because H + x > L + x,\\\\\\therefore \\frac{\\Delta }\{\{H - x}} > \\frac{\\Delta }\{\{x - L}}.\\\\\\therefore H - x < x - L.\\end{array}\\)
 
-法三③：图形法
+法三：图形法
 
 ![](/img/sqrt-geo.svg "图形法")
 
@@ -60,29 +58,14 @@ tags:
 
 \\(\\begin{array}{l}\\because FC < CG,CG < BH,\\\\\\therefore FC < BH.\\\\\\therefore H - x < x - L.\\end{array}\\)
 
-
-
 法四：
 
 设\\(L = \\sqrt \{\{x^2} - \\Delta }  = x - m\\)，\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(N = x + m\\).
 
 \\[\\begin{array}{l}\\therefore {L^2} = {x^2} - \\Delta  = {x^2} - 2mx + {m^2}.\\\\\\therefore \\Delta  = 2mx - {m^2}.\\\\\\because {H^2} = {x^2} + \\Delta  = {L^2} + 2\\Delta  = {x^2} + 2mx - {m^2},\\\\\\therefore H = \\sqrt \{\{\{(x + m)}^2} - 2{m^2}}  < \\sqrt \{\{\{(x + m)}^2}}  = x + m = N.\\\\\\therefore H < N \\Leftrightarrow H - x < N - x.\\\\\\because N - x = m = x - L,\\\\\\therefore H - x < x - L.\\end{array}\\]
 
-
-
-
-
 法五：函数图像法
 
 ![](/img/sqrt-graph.svg)
 
 观察函数\\(f(x) = \\sqrt x \\)及其导数函数\\[f'(x) = \\frac{1}\{\{2\\sqrt x }}\\]的图像，可知随着x值的增加，\\(\\sqrt x \\)增加趋势放缓. 因此，任意抽取两段连续的x值区间，总是数值较大的区间内函数值\\(\\sqrt x \\)的变化积分量较小，即\\(H - x < x - L\\).
-
-
-
-
-
-
-
-附录：Δ=1，10，50，100时，“判别式”J的图像
-
