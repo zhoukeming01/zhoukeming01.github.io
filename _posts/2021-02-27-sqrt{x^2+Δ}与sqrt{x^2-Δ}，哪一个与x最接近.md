@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      \( \sqrt{x^2+Δ} \)与\( \sqrt{x^2-Δ} \)，哪一个与x最接近
-subtitle:   \(\sqrt \{\{x^2} + \Delta } \)，\(\sqrt \{\{x^2} - \Delta } \)与x的差值大小比较
+subtitle:   \(\sqrt {{x^2} + \Delta } \)，\(\sqrt {{x^2} - \Delta } \)与x的差值大小比较
 date:       2021-02-27
 author:     周可名
 header-img: img/post-bg-interview.jpg
