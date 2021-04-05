@@ -12,16 +12,16 @@ tags:
 
 \( \sqrt{x^2+Δ} \)与\(\ sqrt{x^2-Δ} \)，哪一个与x最接近
 
-\\(\\sqrt \{\{x^2} + \\Delta } \\)，\\(\\sqrt \{\{x^2} - \\Delta } \\)与x的差值大小比较
+\\(\\sqrt \{\{x^2} + \\Delta } \\)，\\(\\sqrt \{\{x^2} - \\Delta } \\)与x的差值大小比较  
 \\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(L = \\sqrt \{\{x^2} - \\Delta } \\).
 
 问题：H与L中，哪个与x更接近(\\(0 \\le \\Delta  \\le {x^2}\\))？
 
 法一：作差法  
 将H，L分别与x作差，再将结果作差，得：  
-\\(\\left( {H - x} \\right) - \\left( {x - L} \\right) = H + L - 2x\\). 
+\\(\\left( {H - x} \\right) - \\left( {x - L} \\right) = H + L - 2x\\).
 
-要确定该式的符号，可计算“判别式”J：
+要确定该式的符号，可计算“判别式”J：  
 \\(J = {\\left( {H + L} \\right)^2} - {\\left( {2x} \\right)^2} = 2\\left( {H \\cdot L - {x^2}} \\right)\\).  
 \\(\\begin{array}{l}J > 0 \\Leftrightarrow H - x > x - L;\\\\J = 0 \\Leftrightarrow H - x = x - L;\\\\J < 0 \\Leftrightarrow H - x < x - L.\\end{array}\\)
 
@@ -42,10 +42,9 @@ tags:
 圆的直径\\[AB\\; < AC\\]，而弦长相等，可证\\(\\alpha  > \\beta \\)，由相似得\\(\\gamma  = \\alpha  > \\beta  = \\theta \\)即\\(\\gamma  > \\theta \\).  
 故\\(CG = \\sin \\theta  \\cdot BC\\)，\\(BH = \\sin \\gamma  \\cdot BE\\).
 
-法四：
+法四：  
 设\\(L = \\sqrt \{\{x^2} - \\Delta }  = x - m\\)，\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(N = x + m\\).  
 \\[\\begin{array}{l}\\therefore {L^2} = {x^2} - \\Delta  = {x^2} - 2mx + {m^2}.\\\\\\therefore \\Delta  = 2mx - {m^2}.\\\\{H^2} = {x^2} + \\Delta  = {L^2} + 2\\Delta  = {x^2} + 2mx - {m^2} \\Rightarrow H = \\sqrt \{\{\{(x + m)}^2} - 2{m^2}}  < \\sqrt \{\{\{(x + m)}^2}}  = x + m = N\\\\ \\Rightarrow H < N \\Leftrightarrow H - x < N - x.\\\\N - x = m = x - L \\Rightarrow H - x < x - L.\\end{array}\\]
-
 
 法五：函数图像法
 
