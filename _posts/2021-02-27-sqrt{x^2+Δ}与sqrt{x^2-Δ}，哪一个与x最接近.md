@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      \( \sqrt{x^2+Δ} \)与\( \sqrt{x^2-Δ} \)，哪一个与x最接近
-subtitle:   请仔细阅读
+subtitle:   \\(\\sqrt \{\{x^2} + \\Delta } \\)，\\(\\sqrt \{\{x^2} - \\Delta } \\)与x的差值大小比较
 date:       2021-02-27
 author:     周可名
 header-img: img/post-bg-interview.jpg
@@ -10,61 +10,56 @@ tags:
     - 数学研究
 ---
 
-\\(\\sqrt \{\{x^2} + \\Delta } \\)，\\(\\sqrt \{\{x^2} - \\Delta } \\)与x的差值大小比较
+令\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(L = \\sqrt \{\{x^2} - \\Delta } \\).
 
-\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(L = \\sqrt \{\{x^2} - \\Delta } \\).
+**问题：H与L中，哪个与x更接近(\\(0 \\le \\Delta  \\le {x^2}\\))？**
 
-问题：H与L中，哪个与x更接近(\\(0 \\le \\Delta  \\le {x^2}\\))？
-
-法一：作差法
+# 法一：作差法
 
 将H，L分别与x作差，再将结果作差，得：
 
 \\(\\left( {H - x} \\right) - \\left( {x - L} \\right) = H + L - 2x\\). 
 
-要确定该式的符号，可计算“判别式”J：
+要确定该式的符号，可计算“判别式” _J_：
 
 \\(J = {\\left( {H + L} \\right)^2} - {\\left( {2x} \\right)^2} = 2\\left( {H \\cdot L - {x^2}} \\right)\\).
 
+由此可得以下对应关系：  
 \\(\\begin{array}{l}J > 0 \\Leftrightarrow H - x > x - L;\\\\J = 0 \\Leftrightarrow H - x = x - L;\\\\J < 0 \\Leftrightarrow H - x < x - L.\\end{array}\\)
 
-1. 当\\(\\Delta  = 0\\)时，\\(J = 0\\)，\\(H - x = x - L\\).
-
-2. 当\\(\\Delta  > 0\\)时，
-
+1. 当\\(\\Delta  = 0\\)时，\\(J = 0\\)，\\(H - x = x - L\\).  
+2. 当\\(\\Delta  > 0\\)时，  
 \\(\\begin{array}{l}\\frac{J}{2} = \\sqrt \{\{x^4} - {\\Delta ^2}}  - {x^2}.\\\\\\because {x^4} - {\\Delta ^2} < {x^4}\\\\\\therefore \\sqrt \{\{x^4} - {\\Delta ^2}}  - {x^2} < 0\\\\\\therefore J = 2(\\sqrt \{\{x^4} - {\\Delta ^2}}  - {x^2}) < 0.\\\\\\therefore H - x < x - L.\\end{array}\\)
 
-法二：利用平方差公式转化
+# 法二：利用平方差公式转化
 
 \\(\\begin{array}{l}\\frac{\\Delta }\{\{H - x}} = H + x,\\\\\\frac{\\Delta }\{\{x - L}} = L + x.\\end{array}\\)
 
-当\\(\\Delta  = 0\\)时，\\(H = L\\).
-
+当\\(\\Delta  = 0\\)时，\\(H = L\\).  
 \\(\\therefore H - x = x - L\\).
 
-当\\(\\Delta  > 0\\)时，
-
+当\\(\\Delta  > 0\\)时，  
 \\(\\begin{array}{l}\\because H + x > L + x,\\\\\\therefore \\frac{\\Delta }\{\{H - x}} > \\frac{\\Delta }\{\{x - L}}.\\\\\\therefore H - x < x - L.\\end{array}\\)
 
-法三：图形法
+# 法三：图形法
 
 ![](/img/sqrt-geo.svg "图形法")
 
 在两个（大）直角三角形中A，C，B三点共圆，BC为弦；A，B，E三点共圆，BE为弦. 
 
-圆的直径\\[AB\\; < AC\\]，而弦长相等，可证\\(\\alpha  > \\beta \\)，由相似得\\(\\gamma  = \\alpha  > \\beta  = \\theta \\)即\\(\\gamma  > \\theta \\). 
+圆的直径\\(AB\\; < AC\\)，而弦长相等，可证\\(\\alpha  > \\beta \\)，由相似得\\(\\gamma  = \\alpha  > \\beta  = \\theta \\)即\\(\\gamma  > \\theta \\). 
 
 故\\(CG = \\sin \\theta  \\cdot BC\\)，\\(BH = \\sin \\gamma  \\cdot BE\\).
 
 \\(\\begin{array}{l}\\because FC < CG,CG < BH,\\\\\\therefore FC < BH.\\\\\\therefore H - x < x - L.\\end{array}\\)
 
-法四：
+# 法四：
 
 设\\(L = \\sqrt \{\{x^2} - \\Delta }  = x - m\\)，\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(N = x + m\\).
 
 \\[\\begin{array}{l}\\therefore {L^2} = {x^2} - \\Delta  = {x^2} - 2mx + {m^2}.\\\\\\therefore \\Delta  = 2mx - {m^2}.\\\\\\because {H^2} = {x^2} + \\Delta  = {L^2} + 2\\Delta  = {x^2} + 2mx - {m^2},\\\\\\therefore H = \\sqrt \{\{\{(x + m)}^2} - 2{m^2}}  < \\sqrt \{\{\{(x + m)}^2}}  = x + m = N.\\\\\\therefore H < N \\Leftrightarrow H - x < N - x.\\\\\\because N - x = m = x - L,\\\\\\therefore H - x < x - L.\\end{array}\\]
 
-法五：函数图像法
+# 法五：函数图像法
 
 ![](/img/sqrt-graph.svg)
 
