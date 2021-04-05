@@ -44,7 +44,7 @@ tags:
 
 法四：
 设\\(L = \\sqrt \{\{x^2} - \\Delta }  = x - m\\)，\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(N = x + m\\).  
-\\[\\begin{array}{l}\\therefore {L^2} = {x^2} - \\Delta  = {x^2} - 2mx + {m^2}.\\\\\\therefore \\Delta  = 2mx - {m^2}.\\\\{H^2} = {x^2} + \\Delta  = {L^2} + 2\\Delta  = {x^2} + 2mx - {m^2} \\Rightarrow H = \\sqrt \{\{{(x + m)}^2} - 2{m^2}}  < \\sqrt \{\{{(x + m)}^2}}  = x + m = N\\\\ \\Rightarrow H < N \\Leftrightarrow H - x < N - x.\\\\N - x = m = x - L \\Rightarrow H - x < x - L.\\end{array}\\]
+\\[\\begin{array}{l}\\therefore {L^2} = {x^2} - \\Delta  = {x^2} - 2mx + {m^2}.\\\\\\therefore \\Delta  = 2mx - {m^2}.\\\\{H^2} = {x^2} + \\Delta  = {L^2} + 2\\Delta  = {x^2} + 2mx - {m^2} \\Rightarrow H = \\sqrt \{\{\{(x + m)}^2} - 2{m^2}}  < \\sqrt \{\{\{(x + m)}^2}}  = x + m = N\\\\ \\Rightarrow H < N \\Leftrightarrow H - x < N - x.\\\\N - x = m = x - L \\Rightarrow H - x < x - L.\\end{array}\\]
 
 
 法五：函数图像法
