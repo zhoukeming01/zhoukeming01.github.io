@@ -9,3 +9,5 @@ catalog:    true
 tags:
     - 数学研究
 ---
+
+\( \sqrt{x^2+Δ} \)与\(\ sqrt{x^2-Δ} \)，哪一个与x最接近
