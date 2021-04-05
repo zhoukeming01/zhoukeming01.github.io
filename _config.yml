@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: ""
 url: "http://zhoukeming01.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/zhoukeming01/zhoukeming01.github.io.git" # you code repository
+github_repo: "https://github.com/zhoukeming01/zhoukeming01.github.io.git" # your code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -51,6 +51,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  math_engine: mathjax
 
 
 
