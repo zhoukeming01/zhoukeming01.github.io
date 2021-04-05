@@ -26,7 +26,7 @@ tags:
 
 \\(J = {\\left( {H + L} \\right)^2} - {\\left( {2x} \\right)^2} = 2\\left( {H \\cdot L - {x^2}} \\right)\\)②.
 
-	\\(\\begin{array}{l}J > 0 \\Leftrightarrow H - x > x - L;\\\\J = 0 \\Leftrightarrow H - x = x - L;\\\\J < 0 \\Leftrightarrow H - x < x - L.\\end{array}\\)
+\\(\\begin{array}{l}J > 0 \\Leftrightarrow H - x > x - L;\\\\J = 0 \\Leftrightarrow H - x = x - L;\\\\J < 0 \\Leftrightarrow H - x < x - L.\\end{array}\\)
 
 1. 当\\(\\Delta  = 0\\)时，\\(J = 0\\)，\\(H - x = x - L\\).
 
@@ -66,7 +66,7 @@ tags:
 
 设\\(L = \\sqrt \{\{x^2} - \\Delta }  = x - m\\)，\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(N = x + m\\).
 
-\[\begin{array}{l}\therefore {L^2} = {x^2} - \Delta  = {x^2} - 2mx + {m^2}.\\\therefore \Delta  = 2mx - {m^2}.\\\because {H^2} = {x^2} + \Delta  = {L^2} + 2\Delta  = {x^2} + 2mx - {m^2},\\\therefore H = \sqrt \{\{\{(x + m)}^2} - 2{m^2}}  < \sqrt \{\{\{(x + m)}^2}}  = x + m = N.\\\therefore H < N \Leftrightarrow H - x < N - x.\\\because N - x = m = x - L,\\\therefore H - x < x - L.\end{array}\]
+\\[\\begin{array}{l}\\therefore {L^2} = {x^2} - \\Delta  = {x^2} - 2mx + {m^2}.\\\\\\therefore \\Delta  = 2mx - {m^2}.\\\\\\because {H^2} = {x^2} + \\Delta  = {L^2} + 2\\Delta  = {x^2} + 2mx - {m^2},\\\\\\therefore H = \\sqrt \\{\\{\\{(x + m)}^2} - 2{m^2}}  < \\sqrt \\{\\{\\{(x + m)}^2}}  = x + m = N.\\\\\\therefore H < N \\Leftrightarrow H - x < N - x.\\\\\\because N - x = m = x - L,\\\\\\therefore H - x < x - L.\\end{array}\\]
 
 
 
