@@ -8,6 +8,7 @@ header-img: img/post-bg-interview.jpg
 catalog:    true
 tags:
     - 数学研究
+    - 学习心得
 ---
 
 令\\(H = \\sqrt \{\{x^2} + \\Delta } \\)，\\(L = \\sqrt \{\{x^2} - \\Delta } \\).
