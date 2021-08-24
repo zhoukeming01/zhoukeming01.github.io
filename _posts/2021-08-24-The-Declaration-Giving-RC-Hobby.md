@@ -1,11 +1,11 @@
 ---
-layout     :post
-title      :The Declaration of Giving up RC Hobby
-subtitle   :
-date       :2021-08-24
-author     :Kermit
-header-img :img/bg-interview.jpg
-catalog    :true
+layout:     post
+title:      The Declaration of Giving up RC Hobby
+subtitle:
+date:       2021-08-24
+author:     Kermit
+header-img: img/bg-interview.jpg
+catalog:    true
 ---
 
 The senior high period is usually busy and lack of spare time. In contrast, RC hobby tends to be time consuming, not suitable for that period mentioned above. What's more, it won't be so time consuming if you do not crash your RC model, or if there's never anything wrong with it; however, things usually do not go that smoothly. 
