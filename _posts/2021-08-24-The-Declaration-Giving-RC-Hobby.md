@@ -24,6 +24,6 @@ Per those inconveniences, it is time to faithfully declare a temporary goodbye t
     * For those really in need of keeping a copy, back them up, contain a link to official website, and zip to a file; then zip all sub zipped files into one. **Set the password as the S/N of HW-200325CP0 adaptor.**
 3. **VIDEO CLIPS.** For flying video clips, consider storing to Baidu Netdisk, or just delete them. Adobe Premiere doesn't necessarily have to be uninstalled. Keeping it will be fine.
 4. **ACCESS.** Before gaokao, no one has access to those materials. Access exception should be normally denied; if really necessary, exceptions must be logged here. The highest amount of exception is 1 time/4 months.
-5. **COMMUNITY & COMMUNICATION.** The QQ groups related doesn't necessarily have to be left; however, a full block must apply.
+5. **COMMUNITY & COMMUNICATION.** It is not strictly necessary to leave related QQ groups, since a full block on them would be enough to filter their messages.
 6. **EFFECT.** The operation should be in effect no later than 2020-08-26.  
 The last day of this operation keeping effective is the last day of gaokao.
