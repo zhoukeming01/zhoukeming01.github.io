@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      The Declaration of Giving up RC Hobby during Junior High
+title:      The Declaration of Giving up RC Hobby during Senior High
 subtitle:   Declare a temporary goodbye to RC hobby
 date:       2021-08-24
 author:     Kermit
